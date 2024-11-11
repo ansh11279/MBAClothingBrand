@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBA Private Limited - Clothing Brand</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>MBA Private Limited</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section">
+        <img src="images/hero.jpg" alt="MBA Private Limited Clothing">
+        <div class="hero-text">
+            <h2>Style Meets Comfort</h2>
+            <p>Explore our exclusive range of clothing for all occasions.</p>
+            <a href="#products" class="shop-now-btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-gallery">
+            <div class="product-card">
+                <img src="images/product1.jpg" alt="Product 1">
+                <h3>Casual T-Shirt</h3>
+                <p>High-quality cotton T-shirt for everyday comfort.</p>
+            </div>
+            <div class="product-card">
+                <img src="images/product2.jpg" alt="Product 2">
+                <h3>Denim Jacket</h3>
+                <p>Stylish denim jacket perfect for casual outings.</p>
+            </div>
+            <div class="product-card">
+                <img src="images/product3.jpg" alt="Product 3">
+                <h3>Classic Jeans</h3>
+                <p>Durable and fashionable jeans to complete your look.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At MBA Private Limited, we believe in quality and style. Our clothing is crafted with care, bringing comfort and elegance to your wardrobe.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MBA Private Limited. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

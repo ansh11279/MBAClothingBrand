@@ -1,0 +1,10 @@
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+
+    alert(`Thank you, ${name}! We will get in touch with you at ${email}.`);
+
+    document.getElementById("contactForm").reset();
+});
